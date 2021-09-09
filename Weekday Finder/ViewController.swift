@@ -109,7 +109,7 @@ class ViewController: UIViewController {
     
     func buttonSetup() {
         button.setTitle("Find day", for: .normal)
-        button.tintColor = .white
+        button.tintColor = .blue
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         button.backgroundColor = .blue
         button.translatesAutoresizingMaskIntoConstraints = false
