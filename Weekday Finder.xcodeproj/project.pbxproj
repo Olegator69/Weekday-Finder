@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1906737F26DF8B1F008F8D52 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1906737F26DF8B1F008F8D52 /* Weekday Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weekday Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1906738226DF8B20008F8D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1906738426DF8B20008F8D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1906738626DF8B20008F8D52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		1906737626DF8B1F008F8D52 = {
 			isa = PBXGroup;
 			children = (
-				1906738126DF8B1F008F8D52 /* HelloWorld */,
+				1906738126DF8B1F008F8D52 /* Weekday Finder */,
 				1906738026DF8B1F008F8D52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		1906738026DF8B1F008F8D52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1906737F26DF8B1F008F8D52 /* HelloWorld.app */,
+				1906737F26DF8B1F008F8D52 /* Weekday Finder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1906738126DF8B1F008F8D52 /* HelloWorld */ = {
+		1906738126DF8B1F008F8D52 /* Weekday Finder */ = {
 			isa = PBXGroup;
 			children = (
 				1906738226DF8B20008F8D52 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				1906738D26DF8B23008F8D52 /* LaunchScreen.storyboard */,
 				1906739026DF8B23008F8D52 /* Info.plist */,
 			);
-			path = HelloWorld;
+			path = "Weekday Finder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1906737E26DF8B1F008F8D52 /* HelloWorld */ = {
+		1906737E26DF8B1F008F8D52 /* Weekday Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1906739326DF8B23008F8D52 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 1906739326DF8B23008F8D52 /* Build configuration list for PBXNativeTarget "Weekday Finder" */;
 			buildPhases = (
 				1906737B26DF8B1F008F8D52 /* Sources */,
 				1906737C26DF8B1F008F8D52 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = "Weekday Finder";
 			productName = HelloWorld;
-			productReference = 1906737F26DF8B1F008F8D52 /* HelloWorld.app */;
+			productReference = 1906737F26DF8B1F008F8D52 /* Weekday Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1906737A26DF8B1F008F8D52 /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 1906737A26DF8B1F008F8D52 /* Build configuration list for PBXProject "Weekday Finder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1906737E26DF8B1F008F8D52 /* HelloWorld */,
+				1906737E26DF8B1F008F8D52 /* Weekday Finder */,
 			);
 		};
 /* End PBXProject section */
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Weekday Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Weekday Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1906737A26DF8B1F008F8D52 /* Build configuration list for PBXProject "HelloWorld" */ = {
+		1906737A26DF8B1F008F8D52 /* Build configuration list for PBXProject "Weekday Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1906739126DF8B23008F8D52 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1906739326DF8B23008F8D52 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		1906739326DF8B23008F8D52 /* Build configuration list for PBXNativeTarget "Weekday Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1906739426DF8B23008F8D52 /* Debug */,
